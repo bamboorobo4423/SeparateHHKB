@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 2)
+    (drawings 3)
     (tracks 13)
     (zones 0)
-    (modules 125)
+    (modules 128)
     (nets 92)
   )
 
@@ -282,7 +282,7 @@
     (add_net row4)
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B73A41B)
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B73A41B)
     (at 181.4068 77.6732)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
@@ -301,7 +301,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B73A3DE)
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B73A3DE)
     (at 195.5546 58.8518)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
@@ -320,7 +320,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B73A3B2)
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B73A3B2)
     (at 172.2374 97.1804)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
@@ -339,7 +339,45 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBEE4)
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B73A386)
+    (at 279.4 60.96)
+    (descr "Mounting Hole 3.2mm, no annular, M3")
+    (tags "mounting hole 3.2mm no annular m3")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 3.45 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B73A340)
+    (at 274.32 87.63)
+    (descr "Mounting Hole 3.2mm, no annular, M3")
+    (tags "mounting hole 3.2mm no annular m3")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3.45 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBEE4)
     (at 162.814 105.918)
     (path /5B19922B)
     (fp_text reference m1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -394,7 +432,7 @@
     )
   )
 
-  (module micro:ARDUINO_MICRO_SHIELD locked (layer B.Cu) (tedit 5AD0BFAC) (tstamp 5B737C74)
+  (module micro:ARDUINO_MICRO_SHIELD (layer B.Cu) (tedit 5AD0BFAC) (tstamp 5B737C74)
     (at 280.7462 134.4549 180)
     (tags "ARDUINO, MICRO")
     (path /5B17D96D)
@@ -488,7 +526,7 @@
       (net 17 col12))
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBBF0)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBBF0)
     (at 24.892 48.768)
     (path /5AFF7642)
     (fp_text reference !1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -543,7 +581,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBBFC)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBBFC)
     (at 82.042 48.768)
     (path /5AFF7EF8)
     (fp_text reference $1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -598,7 +636,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC08)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC08)
     (at 101.092 48.768)
     (path /5AFF7F14)
     (fp_text reference %1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -653,7 +691,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC14)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC14)
     (at 139.192 48.768)
     (path /5B199217)
     (fp_text reference &1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -708,7 +746,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC20)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC20)
     (at 229.108 86.868)
     (path /5B199290)
     (fp_text reference '1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -763,7 +801,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC2C)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC2C)
     (at 177.292 48.768)
     (path /5B19924D)
     (fp_text reference "(1" (at 0 -7.14375 180) (layer Dwgs.User)
@@ -818,7 +856,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC38)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC38)
     (at 196.342 48.768)
     (path /5B199268)
     (fp_text reference ")1" (at 0 -7.14375 180) (layer Dwgs.User)
@@ -873,7 +911,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC44)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC44)
     (at 158.242 48.768)
     (path /5B199232)
     (fp_text reference *1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -928,7 +966,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC50)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC50)
     (at 234.442 48.768)
     (path /5B19EB6F)
     (fp_text reference +1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -983,7 +1021,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B6C43B9)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B6C43B9)
     (at 219.964 105.918)
     (path /5B19927C)
     (fp_text reference /1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1038,7 +1076,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC68)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC68)
     (at 210.058 86.868)
     (path /5B199275)
     (fp_text reference ;1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1093,7 +1131,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC74)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC74)
     (at 181.864 105.918)
     (path /5B199246)
     (fp_text reference <1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1148,7 +1186,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC80)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC80)
     (at 200.406 105.918)
     (path /5B199261)
     (fp_text reference >1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1203,7 +1241,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC8C)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC8C)
     (at 43.942 48.768)
     (path /5AFF78B2)
     (fp_text reference @1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1258,7 +1296,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC98)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBC98)
     (at 38.608 86.868)
     (path /5AFF7650)
     (fp_text reference a1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1313,7 +1351,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B6C477C)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B6C477C)
     (at 33.528 125.73)
     (path /5B25C645)
     (fp_text reference AltL1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1368,7 +1406,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B6D7D61)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B6D7D61)
     (at 220.98 125.73)
     (path /5B25C966)
     (fp_text reference AltR1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1423,7 +1461,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBCBC)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBCBC)
     (at 124.714 105.918)
     (path /5AFF7F29)
     (fp_text reference b1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1478,7 +1516,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B6DA53A)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B6DA53A)
     (at 266.7 67.564)
     (path /5B1A6212)
     (fp_text reference BackSP1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1533,7 +1571,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBCD4)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBCD4)
     (at 86.614 105.918)
     (path /5AFF78E3)
     (fp_text reference c1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1588,7 +1626,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B6D7A9B)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B6D7A9B)
     (at 12.7 86.868)
     (path /5AFF73D2)
     (fp_text reference Control1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1643,7 +1681,7 @@
     )
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBCE6)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBCE6)
     (at -3.048 52.578 90)
     (path /5AFF8A98)
     (fp_text reference D1 (at 0 0 90) (layer F.SilkS)
@@ -1667,7 +1705,7 @@
       (net 36 "Net-(D1-Pad2)"))
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBCF2)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBCF2)
     (at 76.708 86.868)
     (path /5AFF78DC)
     (fp_text reference d1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -1722,7 +1760,7 @@
     )
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C6763)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C6763)
     (at 2.286 71.374 90)
     (path /5AFF8CFF)
     (fp_text reference D2 (at 0 0 90) (layer F.SilkS)
@@ -1746,7 +1784,7 @@
       (net 40 "Net-(D2-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C3B20)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C3B20)
     (at 3.81 88.9 90)
     (path /5AFF8EB9)
     (fp_text reference D3 (at 0 0 90) (layer F.SilkS)
@@ -1770,7 +1808,7 @@
       (net 34 "Net-(Control1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD04)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD04)
     (at 8.89 109.728 90)
     (path /5AFF90DE)
     (fp_text reference D4 (at 0 0 90) (layer F.SilkS)
@@ -1794,7 +1832,7 @@
       (net 43 "Net-(D4-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD0A)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD0A)
     (at 16.002 52.578 90)
     (path /5AFFA3A6)
     (fp_text reference D5 (at 0 0 90) (layer F.SilkS)
@@ -1818,7 +1856,7 @@
       (net 2 "Net-(!1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD10)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD10)
     (at 24.638 71.374 90)
     (path /5AFFA3AC)
     (fp_text reference D6 (at 0 0 90) (layer F.SilkS)
@@ -1842,7 +1880,7 @@
       (net 44 "Net-(D6-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD16)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD16)
     (at 29.718 88.9 90)
     (path /5AFFA3B2)
     (fp_text reference D7 (at 0 0 90) (layer F.SilkS)
@@ -1866,7 +1904,7 @@
       (net 25 "Net-(D7-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD1C)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD1C)
     (at 39.624 109.728 90)
     (path /5B25FA7E)
     (fp_text reference D8 (at 0 0 90) (layer F.SilkS)
@@ -1890,7 +1928,7 @@
       (net 26 "Net-(AltL1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD22)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD22)
     (at 35.052 52.578 90)
     (path /5AFFAD2E)
     (fp_text reference D9 (at 0 0 90) (layer F.SilkS)
@@ -1914,7 +1952,7 @@
       (net 24 "Net-(@1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD28)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD28)
     (at 43.688 71.374 90)
     (path /5AFFAD34)
     (fp_text reference D10 (at 0 0 90) (layer F.SilkS)
@@ -1938,7 +1976,7 @@
       (net 45 "Net-(D10-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B6DB61C)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B6DB61C)
     (at 48.768 88.9 90)
     (path /5AFFAD3A)
     (fp_text reference D11 (at 0 0 90) (layer F.SilkS)
@@ -1962,7 +2000,7 @@
       (net 46 "Net-(D11-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD34)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD34)
     (at 58.674 109.728 90)
     (path /5AFFA3B8)
     (fp_text reference D12 (at 0 0 90) (layer F.SilkS)
@@ -1986,7 +2024,7 @@
       (net 47 "Net-(D12-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD3A)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD3A)
     (at 54.102 52.578 90)
     (path /5B25FC02)
     (fp_text reference D13 (at 0 0 90) (layer F.SilkS)
@@ -2010,7 +2048,7 @@
       (net 48 "Net-(D13-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD40)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD40)
     (at 62.738 71.374 90)
     (path /5AFFAF52)
     (fp_text reference D14 (at 0 0 90) (layer F.SilkS)
@@ -2034,7 +2072,7 @@
       (net 49 "Net-(D14-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD46)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD46)
     (at 68.58 88.9 90)
     (path /5AFFAF58)
     (fp_text reference D15 (at 0 0 90) (layer F.SilkS)
@@ -2058,7 +2096,7 @@
       (net 38 "Net-(D15-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD4C)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD4C)
     (at 77.724 109.728 90)
     (path /5AFFAF5E)
     (fp_text reference D16 (at 0 0 90) (layer F.SilkS)
@@ -2082,7 +2120,7 @@
       (net 32 "Net-(D16-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD52)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD52)
     (at 73.152 52.578 90)
     (path /5AFFAD40)
     (fp_text reference D17 (at 0 0 90) (layer F.SilkS)
@@ -2106,7 +2144,7 @@
       (net 83 "Net-(D17-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD58)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD58)
     (at 81.788 71.374 90)
     (path /5AFFB3C6)
     (fp_text reference D18 (at 0 0 90) (layer F.SilkS)
@@ -2130,7 +2168,7 @@
       (net 4 "Net-($1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD5E)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD5E)
     (at 86.868 88.9 90)
     (path /5AFFB3CC)
     (fp_text reference D19 (at 0 0 90) (layer F.SilkS)
@@ -2154,7 +2192,7 @@
       (net 50 "Net-(D19-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD64)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD64)
     (at 96.774 109.728 90)
     (path /5AFFB3D2)
     (fp_text reference D20 (at 0 0 90) (layer F.SilkS)
@@ -2178,7 +2216,7 @@
       (net 51 "Net-(D20-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD6A)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD6A)
     (at 92.202 52.578 90)
     (path /5AFFAF64)
     (fp_text reference D21 (at 0 0 90) (layer F.SilkS)
@@ -2202,7 +2240,7 @@
       (net 82 "Net-(D21-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD70)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD70)
     (at 100.838 71.374 90)
     (path /5AFFBB2A)
     (fp_text reference D22 (at 0 0 90) (layer F.SilkS)
@@ -2226,7 +2264,7 @@
       (net 6 "Net-(%1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD76)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD76)
     (at 105.918 88.9 90)
     (path /5AFFBB30)
     (fp_text reference D23 (at 0 0 90) (layer F.SilkS)
@@ -2250,7 +2288,7 @@
       (net 52 "Net-(D23-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD7C)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD7C)
     (at 115.824 109.728 90)
     (path /5AFFBB36)
     (fp_text reference D24 (at 0 0 90) (layer F.SilkS)
@@ -2274,7 +2312,7 @@
       (net 29 "Net-(D24-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD82)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD82)
     (at 111.252 52.578 90)
     (path /5AFFB3D8)
     (fp_text reference D25 (at 0 0 90) (layer F.SilkS)
@@ -2298,7 +2336,7 @@
       (net 53 "Net-(D25-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD88)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD88)
     (at 119.888 71.374 90)
     (path /5B25FD71)
     (fp_text reference D26 (at 0 0 90) (layer F.SilkS)
@@ -2322,7 +2360,7 @@
       (net 54 "Net-(D26-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD8E)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD8E)
     (at 124.968 88.9 90)
     (path /5AFFBB3C)
     (fp_text reference D27 (at 0 0 90) (layer F.SilkS)
@@ -2346,7 +2384,7 @@
       (net 55 "Net-(D27-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD94)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD94)
     (at 134.874 109.728 90)
     (path /5B19929E)
     (fp_text reference D28 (at 0 0 90) (layer F.SilkS)
@@ -2370,7 +2408,7 @@
       (net 56 "Net-(D28-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD9A)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBD9A)
     (at 130.302 52.578 90)
     (path /5B1992A4)
     (fp_text reference D29 (at 0 0 90) (layer F.SilkS)
@@ -2394,7 +2432,7 @@
       (net 84 "Net-(D29-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDA0)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDA0)
     (at 138.938 71.374 90)
     (path /5B1992AA)
     (fp_text reference D30 (at 0 0 90) (layer F.SilkS)
@@ -2418,7 +2456,7 @@
       (net 57 "Net-(D30-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B737D06)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B737D06)
     (at 144.018 88.9 90)
     (path /5B1992B6)
     (fp_text reference D31 (at 0 0 90) (layer F.SilkS)
@@ -2442,7 +2480,7 @@
       (net 8 "Net-(&1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDAC)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDAC)
     (at 154.178 109.728 90)
     (path /5B1992BC)
     (fp_text reference D32 (at 0 0 90) (layer F.SilkS)
@@ -2466,7 +2504,7 @@
       (net 58 "Net-(D32-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDB2)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDB2)
     (at 149.352 52.578 90)
     (path /5B1992C2)
     (fp_text reference D33 (at 0 0 90) (layer F.SilkS)
@@ -2490,7 +2528,7 @@
       (net 85 "Net-(D33-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDB8)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDB8)
     (at 157.988 71.374 90)
     (path /5B1992B0)
     (fp_text reference D34 (at 0 0 90) (layer F.SilkS)
@@ -2514,7 +2552,7 @@
       (net 59 "Net-(D34-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDBE)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDBE)
     (at 163.068 88.9 90)
     (path /5B1992CE)
     (fp_text reference D35 (at 0 0 90) (layer F.SilkS)
@@ -2538,7 +2576,7 @@
       (net 16 "Net-(*1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDC4)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDC4)
     (at 172.72 109.728 90)
     (path /5B1992D4)
     (fp_text reference D36 (at 0 0 90) (layer F.SilkS)
@@ -2562,7 +2600,7 @@
       (net 86 "Net-(D36-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDCA)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDCA)
     (at 168.402 52.578 90)
     (path /5B1992DA)
     (fp_text reference D37 (at 0 0 90) (layer F.SilkS)
@@ -2586,7 +2624,7 @@
       (net 87 "Net-(D37-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDD0)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDD0)
     (at 177.038 71.374 90)
     (path /5B1992C8)
     (fp_text reference D38 (at 0 0 90) (layer F.SilkS)
@@ -2610,7 +2648,7 @@
       (net 60 "Net-(D38-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDD6)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDD6)
     (at 182.118 88.9 90)
     (path /5B1992E6)
     (fp_text reference D39 (at 0 0 90) (layer F.SilkS)
@@ -2634,7 +2672,7 @@
       (net 12 "Net-((1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C4330)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C4330)
     (at 192.024 109.728 90)
     (path /5B1992EC)
     (fp_text reference D40 (at 0 0 90) (layer F.SilkS)
@@ -2658,7 +2696,7 @@
       (net 88 "Net-(D40-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDE2)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDE2)
     (at 187.452 52.578 90)
     (path /5B1992F2)
     (fp_text reference D41 (at 0 0 90) (layer F.SilkS)
@@ -2682,7 +2720,7 @@
       (net 89 "Net-(D41-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDE8)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDE8)
     (at 196.088 71.374 90)
     (path /5B1992E0)
     (fp_text reference D42 (at 0 0 90) (layer F.SilkS)
@@ -2706,7 +2744,7 @@
       (net 21 "Net-(<1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDEE)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDEE)
     (at 201.168 88.9 90)
     (path /5B3C0167)
     (fp_text reference D43 (at 0 0 90) (layer F.SilkS)
@@ -2730,7 +2768,7 @@
       (net 81 "Net-(D43-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C4428)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C4428)
     (at 211.074 109.728 90)
     (path /5B1992FE)
     (fp_text reference D44 (at 0 0 90) (layer F.SilkS)
@@ -2754,7 +2792,7 @@
       (net 14 "Net-()1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDFA)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBDFA)
     (at 206.502 52.578 90)
     (path /5B199304)
     (fp_text reference D45 (at 0 0 90) (layer F.SilkS)
@@ -2778,7 +2816,7 @@
       (net 61 "Net-(D45-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE00)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE00)
     (at 215.138 71.374 90)
     (path /5B19930A)
     (fp_text reference D46 (at 0 0 90) (layer F.SilkS)
@@ -2802,7 +2840,7 @@
       (net 20 "Net-(;1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE06)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE06)
     (at 220.218 88.9 90)
     (path /5B1992F8)
     (fp_text reference D47 (at 0 0 90) (layer F.SilkS)
@@ -2826,7 +2864,7 @@
       (net 22 "Net-(>1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C4633)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C4633)
     (at 262.636 109.728 90)
     (path /5B25FEDF)
     (fp_text reference D48 (at 0 0 90) (layer F.SilkS)
@@ -2850,7 +2888,7 @@
       (net 62 "Net-(D48-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C47EB)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C47EB)
     (at 24.638 129.54 90)
     (path /5B199316)
     (fp_text reference D49 (at 0 0 90) (layer F.SilkS)
@@ -2874,7 +2912,7 @@
       (net 80 "Net-(D49-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B6D7B3F)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B6D7B3F)
     (at 47.498 129.54 90)
     (path /5B19931C)
     (fp_text reference D50 (at 0 0 90) (layer F.SilkS)
@@ -2898,7 +2936,7 @@
       (net 64 "Net-(D50-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B6D7F9F)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B6D7F9F)
     (at 118.11 129.54 90)
     (path /5B199322)
     (fp_text reference D51 (at 0 0 90) (layer F.SilkS)
@@ -2922,7 +2960,7 @@
       (net 10 "Net-('1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE24)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE24)
     (at 189.23 129.54 90)
     (path /5B199310)
     (fp_text reference D52 (at 0 0 90) (layer F.SilkS)
@@ -2946,7 +2984,7 @@
       (net 19 "Net-(/1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE2A)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE2A)
     (at 212.09 129.54 90)
     (path /5B260455)
     (fp_text reference D53 (at 0 0 90) (layer F.SilkS)
@@ -2970,7 +3008,7 @@
       (net 27 "Net-(AltR1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C4520)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B6C4520)
     (at 237.49 109.728 90)
     (path /5B3BE24D)
     (fp_text reference D54 (at 0 0 90) (layer F.SilkS)
@@ -2994,7 +3032,7 @@
       (net 18 "Net-(+1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE36)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE36)
     (at 263.652 52.578 90)
     (path /5B3C0B34)
     (fp_text reference D55 (at 0 0 90) (layer F.SilkS)
@@ -3018,7 +3056,7 @@
       (net 65 "Net-(D55-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE3C)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE3C)
     (at 225.552 52.578 90)
     (path /5B199328)
     (fp_text reference D56 (at 0 0 90) (layer F.SilkS)
@@ -3042,7 +3080,7 @@
       (net 90 "Net-(D56-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE42)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE42)
     (at 234.188 71.374 90)
     (path /5B3BF3A3)
     (fp_text reference D57 (at 0 0 90) (layer F.SilkS)
@@ -3066,7 +3104,7 @@
       (net 66 "Net-(D57-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE48)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE48)
     (at 244.602 52.578 90)
     (path /5B3C0CCA)
     (fp_text reference D58 (at 0 0 90) (layer F.SilkS)
@@ -3090,7 +3128,7 @@
       (net 31 "Net-(BackSP1-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE4E)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE4E)
     (at 258.064 71.374 90)
     (path /5B3C0E5D)
     (fp_text reference D59 (at 0 0 90) (layer F.SilkS)
@@ -3114,7 +3152,7 @@
       (net 91 "Net-(D59-Pad2)"))
   )
 
-  (module keyboard:Diode locked (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE54)
+  (module keyboard:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5B3CBE54)
     (at 250.19 90.678 90)
     (path /5B25B845)
     (fp_text reference D60 (at 0 0 90) (layer F.SilkS)
@@ -3138,7 +3176,7 @@
       (net 67 "Net-(D60-Pad2)"))
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBE60)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBE60)
     (at 71.628 67.564)
     (path /5AFF78D5)
     (fp_text reference e1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3193,7 +3231,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBE6C)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBE6C)
     (at 259.588 86.868)
     (path /5B25CC45)
     (fp_text reference Enter1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3248,7 +3286,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBE78)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBE78)
     (at 5.842 48.768)
     (path /5AFF728B)
     (fp_text reference ESC1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3303,7 +3341,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBE84)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBE84)
     (at 95.758 86.868)
     (path /5AFF7F06)
     (fp_text reference f1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3358,7 +3396,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B6D9FF8)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B6D9FF8)
     (at 271.272 106.172)
     (path /5B25B616)
     (fp_text reference Fn1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3413,7 +3451,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBE9C)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBE9C)
     (at 114.808 86.868)
     (path /5AFF7F22)
     (fp_text reference g1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3468,7 +3506,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBEA8)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBEA8)
     (at 133.858 86.868)
     (path /5B199209)
     (fp_text reference h1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3523,7 +3561,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBEB4)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBEB4)
     (at 166.878 67.564)
     (path /5B199238)
     (fp_text reference i1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3578,7 +3616,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBEC0)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBEC0)
     (at 152.908 86.868)
     (path /5B199224)
     (fp_text reference j1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3633,7 +3671,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBECC)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBECC)
     (at 171.958 86.868)
     (path /5B19923F)
     (fp_text reference k1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3688,7 +3726,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBED8)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBED8)
     (at 191.008 86.868)
     (path /5B19925A)
     (fp_text reference L1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3743,7 +3781,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBEF0)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBEF0)
     (at 143.764 105.918)
     (path /5B199210)
     (fp_text reference n1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3798,7 +3836,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBEFC)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBEFC)
     (at 185.928 67.564)
     (path /5B199253)
     (fp_text reference o1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3853,7 +3891,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF08)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF08)
     (at 204.978 67.564)
     (path /5B19926E)
     (fp_text reference p1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3908,7 +3946,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B6D865D)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B6D865D)
     (at 33.528 67.564)
     (path /5AFF7649)
     (fp_text reference q1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -3963,7 +4001,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF20)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF20)
     (at 90.678 67.564)
     (path /5AFF7EFF)
     (fp_text reference r1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4018,7 +4056,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF2C)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF2C)
     (at 57.658 86.868)
     (path /5AFF78C0)
     (fp_text reference s1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4073,7 +4111,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF38)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF38)
     (at 17.78 105.918)
     (path /5AFF7493)
     (fp_text reference shiftL1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4128,7 +4166,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B6D6222)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B6D6222)
     (at 245.872 105.918)
     (path /5B199297)
     (fp_text reference shiftR1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4183,7 +4221,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF50)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF50)
     (at 127 125.73)
     (path /5B25D1F1)
     (fp_text reference SP1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4238,7 +4276,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF5C)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF5C)
     (at 109.728 67.564)
     (path /5AFF7F1B)
     (fp_text reference t1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4293,7 +4331,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF68)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF68)
     (at 10.414 67.564)
     (path /5AFF7318)
     (fp_text reference tab1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4348,7 +4386,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF74)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBF74)
     (at 147.828 67.564)
     (path /5B19921D)
     (fp_text reference u1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4403,7 +4441,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFA6)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFA6)
     (at 105.664 105.918)
     (path /5AFF7F0D)
     (fp_text reference v1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4458,7 +4496,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFB2)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFB2)
     (at 52.578 67.564)
     (path /5AFF78B9)
     (fp_text reference w1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4513,7 +4551,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B6D7BAD)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B6D7BAD)
     (at 56.388 125.73)
     (path /5B25CBBC)
     (fp_text reference winL1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4568,7 +4606,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFCA)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFCA)
     (at 198.12 125.73)
     (path /5B25CE1D)
     (fp_text reference winR1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4623,7 +4661,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFD6)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFD6)
     (at 67.564 105.918)
     (path /5AFF78C7)
     (fp_text reference x1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4678,7 +4716,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFE2)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFE2)
     (at 128.778 67.564)
     (path /5B199202)
     (fp_text reference y1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4733,7 +4771,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFEE)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFEE)
     (at 48.514 105.918)
     (path /5AFF7657)
     (fp_text reference z1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4788,7 +4826,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFFA)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CBFFA)
     (at 224.028 67.564)
     (path /5B199289)
     (fp_text reference [1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4843,7 +4881,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CC006)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CC006)
     (at 243.078 67.564)
     (path /5B1A5FF3)
     (fp_text reference ]1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4898,7 +4936,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CC012)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CC012)
     (at 120.142 48.768)
     (path /5B1991FC)
     (fp_text reference ^1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -4953,7 +4991,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CC01E)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CC01E)
     (at 215.392 48.768)
     (path /5B199283)
     (fp_text reference _1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -5008,7 +5046,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CC02A)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CC02A)
     (at 272.542 48.768)
     (path /5B19F3FD)
     (fp_text reference `1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -5063,7 +5101,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CC036)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CC036)
     (at 253.492 48.768)
     (path /5B19ED93)
     (fp_text reference |1 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -5118,7 +5156,7 @@
     )
   )
 
-  (module keebio:Kailh-PG1350-1u locked (layer F.Cu) (tedit 5A216705) (tstamp 5B3CC6AD)
+  (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B3CC6AD)
     (at 62.992 48.768)
     (path /5AFF78CE)
     (fp_text reference a3 (at 0 -7.14375 180) (layer Dwgs.User)
@@ -5171,6 +5209,25 @@
       (scale (xyz 0.394 0.394 0.394))
       (rotate (xyz 270 0 0))
     )
+  )
+
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B73A337)
+    (at 246.888 82.804)
+    (descr "Mounting Hole 3.2mm, no annular, M3")
+    (tags "mounting hole 3.2mm no annular m3")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 3.45 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
   (module keebio:Kailh-PG1350-1u (layer F.Cu) (tedit 5A216705) (tstamp 5B74D17A)
@@ -5228,6 +5285,9 @@
     )
   )
 
+  (gr_text "@bamboorobo5884\n" (at 87.63 130.81) (layer B.SilkS) (tstamp 5B739560)
+    (effects (font (size 4 4) (thickness 0.5)) (justify mirror))
+  )
   (target plus (at 272.542 48.768) (size 5) (width 0.1) (layer Edge.Cuts))
   (target plus (at 253.492 48.768) (size 5) (width 0.1) (layer Edge.Cuts))
 
